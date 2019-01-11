@@ -10,9 +10,10 @@ an overview of what's new in Celery 4.2.
 
 4.3.0
 =====
-:release-date: TBA
-:status: DEVELOPMENT
-:branch: dev (git calls this master)
+:release-date: 2019-01-11 11:33 EST
+:released-by: Ian Naval
+
+- Release fork of Celery to support 3.7 until official release.
 
 4.2.1
 =====
@@ -34,7 +35,7 @@ an overview of what's new in Celery 4.2.
 - **Worker**: Fixed multiple issues with rate limited tasks
 
   Maintain scheduling order.
-  Fix possible scheduling of a :class:`celery.worker.request.Request` with the wrong :class:`kombu.utils.limits.TokenBucket` which could cause tasks' rate limit to behave incorrectly. 
+  Fix possible scheduling of a :class:`celery.worker.request.Request` with the wrong :class:`kombu.utils.limits.TokenBucket` which could cause tasks' rate limit to behave incorrectly.
   Fix possible duplicated execution of tasks that were rate limited or if ETA/Countdown was provided for them.
 
   Contributed by :github_user:`ideascf`

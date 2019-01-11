@@ -12,7 +12,7 @@ except (AttributeError, ImportError):
     def _pyimp():
         return 'Python (unknown)'
 
-NAME = 'celery'
+NAME = 'eq-celery'
 
 # -*- Python Versions -*-
 
