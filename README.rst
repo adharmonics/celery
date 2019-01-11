@@ -2,12 +2,14 @@
 
 |build-status| |coverage| |license| |wheel| |pyversion| |pyimp| |ocbackerbadge| |ocsponsorbadge|
 
-:Version: 4.2.1 (windowlicker)
+:Version: 4.3.0
 :Web: http://celeryproject.org/
 :Download: https://pypi.org/project/celery/
 :Source: https://github.com/celery/celery/
 :Keywords: task, queue, job, async, rabbitmq, amqp, redis,
   python, distributed, actors
+
+*THIS IS AN EVERQUOTE-SPECIFIC FORK SO THAT WE CAN GET BLEEDING EDGE VERSIONS. USE AT YOUR OWN RISK.*
 
 Donations
 =========
